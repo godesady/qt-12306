@@ -8,4 +8,7 @@ from PyQt5.QtGui import *
 
 class UIMainWindow(QMainWindow):
     def __init__(self):
-        super()
+        super(self).__init__()
+        self.initUI()
+    def initUI(self):
+        pass
